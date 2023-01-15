@@ -22,7 +22,7 @@ Quando l'alta marea della peste rientra la città si scioglie in festeggiamenti 
 
 Ho trovato questo romanzo **glaciale**, capace di immortalare emozioni viscerali e scene rivoltanti con compostezza, puntuale nel stroncare sul nascere l'affezione che spesso il lettore può provare nei confronti dei personaggi di un romanzo, senza però mancare di episodi struggenti.
 
-*La Peste* di Albert Camus è un romanzo che celebra il pragmatismo di chi *fa la cosa giusta*, spesso per un motivo più futile che non per un ideale o per erosimo. **La peste** permette di apprezzare il valore dei *punti fermi* della vita, delle piccole cose che scandiscono il ritmo della nostra esistenza, e non manca di sbeffeggiare un poco i *protagonismi*, che spesso si addicono a *chi resta* ma non sa il perchè, ai baciati dalla fortuna. Ma si sà, [**Fortuna caeca est**](https://it.wikipedia.org/wiki/Fortuna_caeca_est).
+*La Peste* di Albert Camus è un romanzo che celebra il pragmatismo di chi *fa la cosa giusta*, spesso per un motivo più futile che non per un ideale o per erosimo. **La peste** permette di apprezzare il valore dei *punti fermi* della vita, delle piccole cose che scandiscono il ritmo della nostra esistenza, e non manca di sbeffeggiare un poco i *protagonismi*, che spesso si addicono a *chi resta* ma non sa il perchè, ai baciati dalla fortuna. Ma si sa, [**Fortuna caeca est**](https://it.wikipedia.org/wiki/Fortuna_caeca_est).
 
 > *... tutti dicono: "È la peste, abbiamo avuto la peste". Poco ci manca che vogliono una medaglia. Ma cosa vuol dire la peste? È la vita, punto e basta.*
 
