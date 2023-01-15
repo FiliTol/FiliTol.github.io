@@ -26,7 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "www.filippotol.in"
 #twitter_username: jekyllrb
 github_username:  pipxy
-linkedIn: https://it.linkedin.com/in/filippotolin
+linkedin_username: filippotolin
 # Build settings
 theme: minima
 plugins:
