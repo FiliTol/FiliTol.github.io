@@ -6,7 +6,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Ciao! In questo blog scrivo di ciò che mi piace, ciò che mi incuriosisce. Nulla dies sine linea significa rendere indelebile, trasformare in immortale ciò che è caduco.
+#  Ciao! In questo blog scrivo di ciò che mi piace, ciò che mi incuriosisce. Nulla dies sine linea significa rendere indelebile, trasformare in immortale ciò che è caduco.
 # Build settings
 
 theme: minima
