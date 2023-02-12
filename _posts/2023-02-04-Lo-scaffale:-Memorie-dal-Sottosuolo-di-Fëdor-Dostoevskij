@@ -23,3 +23,16 @@ Se dovessi riassumere con una parola il contenuto di questo romanzo direi che pa
 L'*uomo del sottosuolo* ci viene in soccorso: egli è lo sciocco della classe che, tra le righe, pone una domanda di cui chiunque vorrebbe sentire la risposta...
 
 ***ma qundi, quando si vive?***
+
+<div class="post-categories">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
+
