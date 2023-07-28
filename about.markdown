@@ -16,4 +16,4 @@ Io sono Filippo, ho 23 anni ed al momento sto frequentando una Laurea Magistrale
 
 Ecco il perchè di questo blog, per raccogliere le mie riflessioni a proposito di temi a me cari, di letture svolte o semplicemente per mettere nero su bianco quella [*linea*](https://it.wikipedia.org/wiki/Plinio_il_Vecchio).
 
-Puoi trovare più informazioni circa quello che faccio nella mia pagina [linkedIn](https://it.linkedin.com/in/filippotolin) ed il mio profilo [GitHub](https://github.com/pipxy).
+Puoi trovare più informazioni circa quello che faccio nella mia pagina [linkedIn](https://it.linkedin.com/in/filippotolin) ed il mio profilo [GitHub](https://github.com/FiliTol).
