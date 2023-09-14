@@ -6,6 +6,7 @@ categories: Libri
 
 
 
+
 <div class="post-categories">
   {% if post %}
     {% assign categories = post.categories %}
