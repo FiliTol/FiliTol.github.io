@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "Tratto : l'oggi di metà '800"
+title: "L'uomo pratico di oggi, il generale di metà '800"
 categories: Citazioni
 --- 
 
