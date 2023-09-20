@@ -17,3 +17,9 @@ Io sono Filippo, ho 23 anni ed al momento sto frequentando una Laurea Magistrale
 Ecco il perchè di questo blog, per raccogliere le mie riflessioni a proposito di temi a me cari, di letture svolte o semplicemente per mettere nero su bianco quella [*linea*](https://it.wikipedia.org/wiki/Plinio_il_Vecchio).
 
 Puoi trovare più informazioni circa quello che faccio nella mia pagina [linkedIn](https://it.linkedin.com/in/filippotolin) ed il mio profilo [GitHub](https://github.com/FiliTol).
+
+Per contatti, puoi scrivermi direttamente su Linkedin dove ti risponderò in poco tempo.
+
+Nel caso volessi necessariamente contattarmi via email, puoi trovare il mio indirizzo email privato a questo <a href="https://legend.lnbits.com/paywall/KyiFixa4rfRS2n85qc7Lzi" target="_blank">link</a>. Il link ti reindirizzerà ad un paywall pagabile in bitcoin via lightning network. Ho scelto di inserire questa minima frizione per disincentivare lo spam nella mia casella di posta personale.
+
+Per ulteriori informazioni circa il lightning network puoi dare un'occhiata a [questa pagina](https://uselightning.network/).  
