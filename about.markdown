@@ -20,6 +20,6 @@ Puoi trovare più informazioni circa quello che faccio nella mia pagina [linkedI
 
 Per contatti, puoi scrivermi direttamente su Linkedin dove ti risponderò in poco tempo.
 
-Nel caso volessi necessariamente contattarmi via email, puoi trovare il mio indirizzo email privato a questo [link](https://legend.lnbits.com/paywall/KyiFixa4rfRS2n85qc7Lzi). Il link ti reindirizzerà ad un paywall pagabile in bitcoin via lightning network. Ho scelto di inserire questa minima frizione per disincentivare lo spam nella mia casella di posta personale.
+Nel caso volessi necessariamente contattarmi via email, puoi trovare il mio indirizzo email privato a questo <a href="https://legend.lnbits.com/paywall/KyiFixa4rfRS2n85qc7Lzi" target="_blank">link</a>. Il link ti reindirizzerà ad un paywall pagabile in bitcoin via lightning network. Ho scelto di inserire questa minima frizione per disincentivare lo spam nella mia casella di posta personale.
 
 Per ulteriori informazioni circa il lightning network puoi dare un'occhiata a [questa pagina](https://uselightning.network/).  
