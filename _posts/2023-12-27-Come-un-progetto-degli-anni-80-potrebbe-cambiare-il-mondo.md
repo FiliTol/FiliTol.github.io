@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ecash chaumiano: come un progetto morto potrebbe far rivivere Internet"
-categories: Tecnologia
+categories: Bitcoin
 ---
 
 
