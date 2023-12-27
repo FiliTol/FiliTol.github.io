@@ -75,9 +75,36 @@ La proposta del Progetto Tourbillon è certamente rivoluzionaria rispetto al dib
 
 ## Cashu, un protocollo per ecash chaumiano costruito su Bitcoin
 
-### Scalabilità del protocollo Bitcoin
+### Il protocollo Bitcoin in breve
+
+Il whitepaper di Bitcoin, pubblicato da Satoshi Nakamoto il 31 ottobre 2008, illustra un sistema di pagamento digitale senza intermediari, che risolve il problema della doppia spesa con una geniale applicazione di varie tecnologie tra cui [Reusable Proof Of Work](https://nakamotoinstitute.org/finney/rpow/index.html) ideato da Hal Finney, [b-money](http://www.weidai.com/bmoney.txt) proposto da Wei Dai ed il sistema [Hashcash](http://www.hashcash.org/papers/hashcash.pdf) teorizzato da Adam Back.
+
+#### Proprietà
+
+Le caratteristiche tecnologiche principali del protocollo Bitcoin lo rendono:
+
+- **Immutabile**, poichè la cronologia e l'ordinamento delle transazioni incluse nel blocchi convergono verso un unico status grazie allo schema di incentivi economici;
+- **Neutrale**, poichè pressioni esogene al protocollo non possono modificarne il funzionamento;
+- **Senza intermediari**, poichè le transazioni non sono intermediate da alcuna controparte;
+- Distribuito, poichè ogni componente del network ha la possibilità di eseguire un client che applica le regole del protocollo anche in situazioni di risorse limitate (bassa latenza, impossibilità nell'accedere ad hardware di ultima generazione etc.).
+
+> Il protocollo Bitcoin è di fatto un sistema di comunicazione distribuito che converge ad una cronologia di transazioni univoca e non conflittuale, realizzando un token scarso utilizzato come remunerazione per i partecipanti al protocollo.
+
+#### Scalabilità 
+
+La natura del protocollo e la necessità di decentralizzazione dello stesso costituiscono un serio limite alla scalabilità del protocollo in termini di **throughput** transattivo. 
+In linea generale la soluzione di lungo termine a questo limite tecnologico risiede nell'utilizzo della blockchain come livello di settlement, con il contestuale spostamento della massa transattiva verso a protocolli e soluzioni off-chain.
+
+Questa elaborazione della struttura protocollare crea la necessità di disegnare protocolli alternativi off-chain idonei e nel rispetto del seguente trade-off generale:
+
+1. **Soluzione custodial**, ovvero gli utenti si affidano ad una piattaforma che funge da intermediario per le transazioni che avvengono internamente alla piattaforma, oltre che da custode dei fondi. Questo tipo di soluzione ripristina il rischio di controparte e di intermediario che il protocollo Bitcoin si propone di risolvere, a beneficio di una maggiore scalabilità il cui limite sancito dall'infrastruttura tecnologica della piattaforma;
+2. **Soluzione non custodial**, ovvero l'utente mantiene la sovranità sui propri fondi, ereditando le responsabilità di corretta custodia e diligenza richieste dal protocollo base, oltre che spesso aumentando la complessità e le conoscenze richieste.
+
+Ogni proposta tecnologica avanzata fino ad oggi si mantiene all'interno dello spettro di possibilità costituito dal precedente trade-off: soluzioni come le piattaforme Exchange sono infatti un perfetto esempio di soluzione di tipo 1, mentre proposte come Lightning Network o il concetto generale di sidechain si possono considerare alla stregua di 'variazioni' della soluzione di tipo 2.
 
 ### Cos'è Cashu
+
+Cashu è 
 
 #### Pregi
 
