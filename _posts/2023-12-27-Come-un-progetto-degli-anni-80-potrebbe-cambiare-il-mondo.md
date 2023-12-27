@@ -54,6 +54,13 @@ Il sistema teorizzato da David Chaum è stato migliorato nel corso degli anni, t
 
 ## Fonti
 
+- 
+- 
+- 
+- 
+- [Chaumian eCash in Bitcoin - Cashu & Fedimint - Adam Gibson aka waxwing](https://www.youtube.com/watch?v=VwMzNE1D3so)
+
+
 
 
 <div class="post-categories">
