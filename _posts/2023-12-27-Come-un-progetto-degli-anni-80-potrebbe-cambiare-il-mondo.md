@@ -73,7 +73,7 @@ Ad onor del vero, esiste un recente working paper che propone l'implementazione 
 Nel novembre 2023 la Bank for International Settlements ha annunciato la creazione del [Progetto Tourbillon](https://www.bis.org/publ/othp80.htm), il quale propone un'implementazione di ecash chaumiano a sostituzione del sistema a Central Bank Digital Currency (CBDC). Il progetto sembra garantire maggiore privacy negli scambi, mantenendo anonima l'identità del pagante ma conservando la possibilità di monitorare e tracciare le transazioni del ricevente ai fini fiscali, di antiriciclaggio ed anti-terrorismo.
 La proposta del Progetto Tourbillon è certamente rivoluzionaria rispetto al dibattito classico in materia di CBDC, rimangono alcuni dubbi circa il livello di privacy effettiva garantita dallo strumento che sicuramente verranno chiariti quando e se l'utilizzo effettivo del sistema prenderà piede.
 
-## Cashu, un protocollo per ecash chaumiano costruito su Bitcoin
+## Cashu, ecash chaumiano costruito su Bitcoin
 
 ### Il protocollo Bitcoin in breve
 
@@ -86,7 +86,7 @@ Le caratteristiche tecnologiche principali del protocollo Bitcoin lo rendono:
 - **Immutabile**, poichè la cronologia e l'ordinamento delle transazioni incluse nel blocchi convergono verso un unico status grazie allo schema di incentivi economici;
 - **Neutrale**, poichè pressioni esogene al protocollo non possono modificarne il funzionamento;
 - **Senza intermediari**, poichè le transazioni non sono intermediate da alcuna controparte;
-- Distribuito, poichè ogni componente del network ha la possibilità di eseguire un client che applica le regole del protocollo anche in situazioni di risorse limitate (bassa latenza, impossibilità nell'accedere ad hardware di ultima generazione etc.).
+- **Distribuito**, poichè ogni componente del network ha la possibilità di eseguire un client che applica le regole del protocollo anche in situazioni di risorse limitate (bassa latenza, impossibilità nell'accedere ad hardware di ultima generazione etc.).
 
 > Il protocollo Bitcoin è di fatto un sistema di comunicazione distribuito che converge ad una cronologia di transazioni univoca e non conflittuale, realizzando un token scarso utilizzato come remunerazione per i partecipanti al protocollo.
 
@@ -97,20 +97,55 @@ In linea generale la soluzione di lungo termine a questo limite tecnologico risi
 
 Questa elaborazione della struttura protocollare crea la necessità di disegnare protocolli alternativi off-chain idonei e nel rispetto del seguente trade-off generale:
 
-1. **Soluzione custodial**, ovvero gli utenti si affidano ad una piattaforma che funge da intermediario per le transazioni che avvengono internamente alla piattaforma, oltre che da custode dei fondi. Questo tipo di soluzione ripristina il rischio di controparte e di intermediario che il protocollo Bitcoin si propone di risolvere, a beneficio di una maggiore scalabilità il cui limite sancito dall'infrastruttura tecnologica della piattaforma;
-2. **Soluzione non custodial**, ovvero l'utente mantiene la sovranità sui propri fondi, ereditando le responsabilità di corretta custodia e diligenza richieste dal protocollo base, oltre che spesso aumentando la complessità e le conoscenze richieste.
+##### 1) Soluzione custodial
+
+L'utente si affida ad una piattaforma che funge da intermediario per le transazioni che avvengono internamente alla piattaforma, oltre che da custode dei fondi. Questo tipo di soluzione ripristina il rischio di controparte e di intermediario che il protocollo Bitcoin si propone di eliminare, a beneficio di una maggiore scalabilità il cui limite è definito dall'infrastruttura tecnologica della piattaforma;
+
+In questo caso, le problematiche che l'utente deve affrontare sono le seguenti:
+
+1. **rischio di controparte**, cioè il rischio che la controparte non adempia ai propri obblighi (ad esempio, la piattaforma sceglie di non rimborsare i propri utenti, la banca blocca i prelievi etc);
+2. **problemi di privacy**, ovvero la controparte ha a disposizione tutta la cronologia di transazioni dell'utente.
+
+
+##### 2) Soluzione non custodial
+
+L'utente mantiene la sovranità sui propri fondi, ereditando le responsabilità di corretta custodia e diligenza richieste dal protocollo base, oltre che spesso aumentando la complessità e le conoscenze richieste.
 
 Ogni proposta tecnologica avanzata fino ad oggi si mantiene all'interno dello spettro di possibilità costituito dal precedente trade-off: soluzioni come le piattaforme Exchange sono infatti un perfetto esempio di soluzione di tipo 1, mentre proposte come Lightning Network o il concetto generale di sidechain si possono considerare alla stregua di 'variazioni' della soluzione di tipo 2.
 
-### Cos'è Cashu
+### Cashu
 
-Cashu è 
+> Cashu is a free and open-source Chaumian ecash system built for Bitcoin. Cashu offers near-perfect privacy for users of custodial Bitcoin applications. [cashu.space](https://cashu.space/)
 
-#### Pregi
-
-#### Difetti
+Cashu è un protocollo che punta a risolvere il problema della privacy in un contesto di piattaforma custodial, costituendo un'ottima soluzione per utenti non avvezzi a soluzioni self-hosted che vogliono però tutelare maggiormente la propria privacy.
 
 ### Come funziona
+
+sequenceDiagram
+    participant Alice as Alice (User)
+    participant Bob as Mint (Bob)
+    participant Carol as Receiving user (Carol)
+
+    Alice->>Bob: Publishes public key K = kG
+    Note right of Bob: Bob generates and publishes<br>the public key for a specific amount
+
+    Note over Alice, Bob: BDHKE Key Exchange
+    Alice->>Bob: Picks a secret x and computes Y = hash_to_curve(x)
+    Alice->>Bob: Sends to Bob: B_ = Y + rG (blinding)
+    Bob->>Alice: Sends back to Alice blinded key: C_ = kB_ (signing)
+    Alice->>Bob: Calculates unblinded key: C = C_ - rK (unblinding)
+
+    Note over Alice, Carol: Token transfer
+    Alice->>Carol: Sends (x, C) token
+    Carol->>Bob: Sends (x, C) to Bob for verification
+
+    Note over Bob: Token verification
+    Bob->>Bob: Checks if k*hash_to_curve(x) == C (verification)
+    Bob-->>Carol: Sends verification result
+
+    Note over Carol: Token validity check
+    Carol->>Carol: Checks verification result
+
 
 ### Implementazioni e riferimenti
 
