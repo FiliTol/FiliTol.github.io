@@ -121,30 +121,21 @@ Cashu è un protocollo che punta a risolvere il problema della privacy in un con
 
 ### Come funziona
 
-sequenceDiagram
-    participant Alice as Alice (User)
-    participant Bob as Mint (Bob)
-    participant Carol as Receiving user (Carol)
+Di seguito uno schema del funzionamento di Cashu:
 
-    Alice->>Bob: Publishes public key K = kG
-    Note right of Bob: Bob generates and publishes<br>the public key for a specific amount
+- Bob (mint)
+    - k private key of mint (one for each amount)
+    - K public key of mint
+    - Q promise (blinded signature)
 
-    Note over Alice, Bob: BDHKE Key Exchange
-    Alice->>Bob: Picks a secret x and computes Y = hash_to_curve(x)
-    Alice->>Bob: Sends to Bob: B_ = Y + rG (blinding)
-    Bob->>Alice: Sends back to Alice blinded key: C_ = kB_ (signing)
-    Alice->>Bob: Calculates unblinded key: C = C_ - rK (unblinding)
+- Alice (user)
+    - x random string (secret message), corresponds to point Y on curve
+    - r private key (blinding factor)
+    - T blinded message
+    - Z proof (unblinded signature)
 
-    Note over Alice, Carol: Token transfer
-    Alice->>Carol: Sends (x, C) token
-    Carol->>Bob: Sends (x, C) to Bob for verification
 
-    Note over Bob: Token verification
-    Bob->>Bob: Checks if k*hash_to_curve(x) == C (verification)
-    Bob-->>Carol: Sends verification result
 
-    Note over Carol: Token validity check
-    Carol->>Carol: Checks verification result
 
 
 ### Implementazioni e riferimenti
