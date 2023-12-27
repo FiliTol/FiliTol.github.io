@@ -179,10 +179,11 @@ Cashu soffre chiaramente delle problematiche classiche dei sistemi basati su con
 
 ### Implementazioni e riferimenti
 
-Cashu 
+Il protocollo Cashu conta ad oggi 8 implementazioni di wallet (disponibili [qui](https://docs.cashu.space/wallets) e 5 implementazioni di mint (guarda [qui](https://docs.cashu.space/mints)), effettivamente utilizzabili ad oggi con fondi mainnet (anche se rischiosi a causa di bug comprensibili vista la giovane età del protocollo).
 
 ## Conclusione
 
+Nominare Fedi e fedimint
 
 
 ## Fonti
