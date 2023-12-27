@@ -156,12 +156,33 @@ Per ovviare al problema emerso al punto 2, Carol richiede dei nuovi ecash token 
 
 Questa procedura assicura l'anonimità del token ad ogni trasferimento.
 
+### Vantaggi e svantaggi di Cashu
+
+Il sistema ecash implementato in Cashu ha numerosissime proprietà e qualità, tra cui:
+
+- perfetta privacy degli utenti che effettuano transazioni grazie alle firme cieche;
+- una Mint può essere hostata su qualsiasi hardware che ha accesso ad internet e riesce a utilizzare una propria **founding source** come un nodo lightning, wallet onchain o un wallet di terza parte;
+- è possibile costruire schemi più elaborati dove il token `(x, C)` viene criptato;
+- il token `(x, C)` è effettivamente il denaro, che quindi viene conservato come strumento al portatore dagli utenti e non custodito presso la Mint. Ciò contribuisce a diminuisce il rischio di controparte, anche se la Mint è di fatto il garante del valore del token ecash e responsabile della conservazione del collaterale;
+- Le transazioni in ecash possono avvenire anche tra utenti che possiedono ecash di mint diverse, è necessario però che:
+    - gli utenti si fidino della nuova mint di cui hanno ricevuto i fondi;
+    - oppure che gli utenti effettuino uno swap tra mint, di fatto facendo un settlement Lightning Network tra le due mint.
+- interoperabilità con Lightning Network.
+
+Cashu soffre chiaramente delle problematiche classiche dei sistemi basati su controparti custodial, quali:
+
+- Gli ecash non vengono creati seguendo il modello a UTXO. In Cashu esistono 'monete' di valore nominale pari a $2^n$ con `n` intero maggiore di 0(dunque monete da 1, 2, 4, 8, 16, 32, ..), ciò aumenta la privacy delle transazioni ma limita potenzialmente il throughput della mint;
+- La mint è responsabile della conservazione del collaterale. Se il collaterale a garanzia degli ecash è detenuto in bitcoin su Lightning Network, la mint diventa di fatto un hot-wallet;
+- La mint deve essere sempre online poichè ad ogni transazione gli utenti devono presentare alla mint il token `(x, C)` ricevuto e ricevere dei nuovi ecash;
+- Per un numero di utenti sufficientemente grande, la mint potrebbe incorrere in problemi di scalabilità;
+- Come tutti i servizi custodial, la mint incorre in possibili rischi normativi a dipendere dalla legislazione in cui risiede.
 
 ### Implementazioni e riferimenti
 
+Cashu 
 
+## Conclusione
 
-### Alternative a Cashu: Fedi
 
 
 ## Fonti
