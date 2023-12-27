@@ -71,14 +71,25 @@ Quanto illustrato ha una rilevanza marginale in un contesto di transazioni econo
 Ad onor del vero, esiste un recente working paper che propone l'implementazione di un sistema simile. Lo stesso David Chaum - con la collaborazione di Christian Grothoff e Thomas Moser - ha infatti pubblicato nel marzo del 2021 il working paper [How to issue a central bank digital currency](https://www.snb.ch/en/publications/research/working-papers/2021/working_paper_2021_03), nel quale viene proposto un sistema di ecash implementabile da una Banca Centrale per garantire la privacy degli utenti ed il contestuale rispetto delle regolamentazioni in materia di intermediari finanziari.
 
 Nel novembre 2023 la Bank for International Settlements ha annunciato la creazione del [Progetto Tourbillon](https://www.bis.org/publ/othp80.htm), il quale propone un'implementazione di ecash chaumiano a sostituzione del sistema a Central Bank Digital Currency (CBDC). Il progetto sembra garantire maggiore privacy negli scambi, mantenendo anonima l'identità del pagante ma conservando la possibilità di monitorare e tracciare le transazioni del ricevente ai fini fiscali, di antiriciclaggio ed anti-terrorismo.
+La proposta del Progetto Tourbillon è certamente rivoluzionaria rispetto al dibattito classico in materia di CBDC, rimangono alcuni dubbi circa il livello di privacy effettiva garantita dallo strumento che sicuramente verranno chiariti quando e se l'utilizzo effettivo del sistema prenderà piede.
 
-In tutta franchezza, la proposta del Progetto Tourbillon ha tutte le premesse per rivelarsi un geniale [cavallo di troia](https://it.wikipedia.org/wiki/Cavallo_di_Troia) della sorveglianza digitale, promuovendo come *privacy-oriented* un sistema che di fatto permetterebbe comunque il tracciamento delle transazioni ricevute ed la conseguente possibilità di effettuare analisi di correlazione tra importi. Sicuramente un passo avanti in termini di privacy digitale, certamente non lo status ideale.
+## Cashu, un protocollo per ecash chaumiano costruito su Bitcoin
 
-## Cashu, un protocollo per ecash chaumiano, costruito su Bitcoin
+### Scalabilità del protocollo Bitcoin
+
+### Cos'è Cashu
+
+#### Pregi
+
+#### Difetti
+
+### Come funziona
+
+### Implementazioni e riferimenti
 
 
 
-
+### Alternative a Cashu: Fedi
 
 
 ## Fonti
