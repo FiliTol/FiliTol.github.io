@@ -31,6 +31,28 @@ e ancora ...
 
 > *David Chaum*: I think you have both kind of forces. **The thing about the interest in having consumer controlled privacy protection is that most people (most consumers) aren't that aware of it**, and it's not really a viable option today, but I believe that it could dominate if it is both made readily available in an easy to use manner and awareness of it is created.
 
+## Firme cieche, banche e messaggi segreti
+
+Il sistema teorizzato da David Chaum è stato migliorato nel corso degli anni, tuttavia non esistono implementazioni di ecash chaumiano che siano in uso ad oggi. Le motivazioni possibili sono molteplici, per lo più:
+
+1. **Pressioni normative**. Un sistema costruito sulla proposta di ecash chaumiano è un sistema innatamente anonimo, dove l'emittente dei token ecash non ha possibilità di tracciare, monitorare o correlare pagamenti tra utenti. Ad oggi le normative per Anti-riciclaggio e Anti-terrorismo non permettono questo tipo di approccio;
+
+2. **Brevetti**. Alcune tecnologie inizialmente proposte per la creazione di un simile sistema sono state poi brevettate, richiedendo quindi un notevole sforzo per aggirare i brevetti;
+
+3. **Cold start problem**. Un sistema di ecash simile si può considerare più difficile da proporre sul mercato poichè utenti disinteressati alla privacy online non sono di certo incentivati ad utilizzarlo.
+
+
+
+
+
+## Cashu, un sistema di ecash chaumiano per Bitcoin
+
+
+
+
+
+
+## Fonti
 
 
 
