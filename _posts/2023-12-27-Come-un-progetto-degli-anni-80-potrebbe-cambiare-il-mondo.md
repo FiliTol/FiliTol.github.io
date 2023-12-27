@@ -15,8 +15,8 @@ Nonstante la genialità delle invenzioni di Chaum, Digicash dichiara bancarotta 
 
 Nell'intervista [*First Monday Interviews: David Chaum*](https://firstmonday.org/ojs/index.php/fm/article/view/683/593) del 1999 lo stesso Chaum rimarca alcuni dei problemi dei sistema di pagamenti digitali dell'epoca:
 
-> Intervistatore: *Here in Belgium for instance there is Proton, but the problem with this kind of payment system is that everything you buy with it is recorded*.
-> David Chaum: *And it's also that people assume that this is not taking place. **The way these products are often promoted to the public is that they are essentially like cash.***
+> *Intervistatore*: Here in Belgium for instance there is Proton, but the problem with this kind of payment system is that everything you buy with it is recorded.
+> *David Chaum*: And it's also that people assume that this is not taking place. **The way these products are often promoted to the public is that they are essentially like cash.**
 
 ma anche ...
 
