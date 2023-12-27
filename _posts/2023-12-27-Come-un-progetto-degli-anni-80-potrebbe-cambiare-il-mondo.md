@@ -75,6 +75,10 @@ La proposta del Progetto Tourbillon è certamente rivoluzionaria rispetto al dib
 
 ## Cashu, ecash chaumiano costruito su Bitcoin
 
+A mio giudizio, le implementazioni più interessanti di un sistema ad ecash chaumiano sono ad oggi due proposte di scalabilità per il protocollo Bitcoin, chiamate Cashu e Fedi. Le seguenti sezioni dell'articolo approfondiscono il protocollo Cashu. Si rimanda ad uno dei successivi articoli per un analisi approfondita sulla proposta Fedi.
+
+Al fine di introdurre le particolarità ed il funzionamento di Cashu, si procede con l'illustrazione delle caratteristiche e trade-off principali del protocollo Bitcoin ad oggi.
+
 ### Il protocollo Bitcoin in breve
 
 Il whitepaper di Bitcoin, pubblicato da Satoshi Nakamoto il 31 ottobre 2008, illustra un sistema di pagamento digitale senza intermediari, che risolve il problema della doppia spesa con una geniale applicazione di varie tecnologie tra cui [Reusable Proof Of Work](https://nakamotoinstitute.org/finney/rpow/index.html) ideato da Hal Finney, [b-money](http://www.weidai.com/bmoney.txt) proposto da Wei Dai ed il sistema [Hashcash](http://www.hashcash.org/papers/hashcash.pdf) teorizzato da Adam Back.
