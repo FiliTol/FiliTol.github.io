@@ -35,7 +35,7 @@ e ancora ...
 
 ### Problemi generali di un sistema ecash
 
-Il sistema teorizzato da David Chaum è stato migliorato nel corso degli anni, tuttavia non esistono implementazioni di ecash chaumiano che siano in uso ad oggi. Le motivazioni possibili sono molteplici, per lo più:
+Il sistema teorizzato da David Chaum è stato migliorato nel corso degli anni, tuttavia non esistono implementazioni di ecash chaumiano che siano diffusamente in uso ad oggi. Le motivazioni possibili sono molteplici, per lo più:
 
 1. **Pressioni normative**. Un sistema costruito sulla proposta di ecash chaumiano è un sistema innatamente anonimo, dove l'emittente dei token ecash non ha possibilità di tracciare, monitorare o correlare pagamenti tra utenti. Ad oggi le normative per Anti-riciclaggio e Anti-terrorismo non permettono questo tipo di approccio;
 
