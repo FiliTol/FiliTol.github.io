@@ -62,8 +62,17 @@ Per utilizzare dell'ecash, Alice deve recarsi presso la banca e prelevare una ce
 
 Il sistema illustrato garantisce che non vi sia una tracciabilità del token ecash emesso dalla Banca, poichè la Banca stessa non ha mai avuto visibilità sul foglio di carta ma solo sulla busta che lo conteneva. Il token in circolazione può quindi essere riportato presso la Banca e riscattato per un valore di €X in qualsiasi momento, senza collegare l'identità di Alice all'identità del prelevante.
 
+La firma apposta dalla Banca sulla busta è una **blind signature**, una firma che la Banca appone senza essere a conoscenza di cosa effettivamente stia firmando. Il token assume un valore corrispondente alla tipologia specifica di firma riposta sulla busta dalla Banca, che corrisponde a quanto versato da Alice allo sportello. Così facendo Alice non ha modo di falsificare poi il contenuto della busta ed è obbligata a scambiare il token al valore nominale garantito dalla firma stessa.
 
+Quanto illustrato ha una rilevanza marginale in un contesto di transazioni economiche effettuate a mezzo contante. Nonostante ciò la procedura risulta di interesse sostanziale là dove gli scambi economici avvengono principalmente a mezzo digitale, con un conseguente rischio per la privacy degli utenti, oltre che il sistematico tracciamento degli utenti da parte degli intermediari e terze parti fidate.
 
+### Proposta per una ecash di banca centrale
+
+Ad onor del vero, esiste un recente working paper che propone l'implementazione di un sistema simile. Lo stesso David Chaum - con la collaborazione di Christian Grothoff e Thomas Moser - ha infatti pubblicato nel marzo del 2021 il working paper [How to issue a central bank digital currency](https://www.snb.ch/en/publications/research/working-papers/2021/working_paper_2021_03), nel quale viene proposto un sistema di ecash implementabile da una Banca Centrale per garantire la privacy degli utenti ed il contestuale rispetto delle regolamentazioni in materia di intermediari finanziari.
+
+Nel novembre 2023 la Bank for International Settlements ha annunciato la creazione del [Progetto Tourbillon](https://www.bis.org/publ/othp80.htm), il quale propone un'implementazione di ecash chaumiano a sostituzione del sistema a Central Bank Digital Currency (CBDC). Il progetto sembra garantire maggiore privacy negli scambi, mantenendo anonima l'identità del pagante ma conservando la possibilità di monitorare e tracciare le transazioni del ricevente ai fini fiscali, di antiriciclaggio ed anti-terrorismo.
+
+In tutta franchezza, la proposta del Progetto Tourbillon ha tutte le premesse per rivelarsi un geniale [cavallo di troia](https://it.wikipedia.org/wiki/Cavallo_di_Troia) della sorveglianza digitale, promuovendo come *privacy-oriented* un sistema che di fatto permetterebbe comunque il tracciamento delle transazioni ricevute ed la conseguente possibilità di effettuare analisi di correlazione tra importi. Sicuramente un passo avanti in termini di privacy digitale, certamente non lo status ideale.
 
 ## Cashu, un protocollo per ecash chaumiano, costruito su Bitcoin
 
