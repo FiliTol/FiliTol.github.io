@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Come un progetto dimenticato potrebbe ringiovanire Internet"
+title: "Ecash, ovvero un progetto dimenticato che potrebbe rivoluzionare i pagamenti digitali"
 categories: Bitcoin
 ---
 
@@ -33,19 +33,39 @@ e ancora ...
 
 ## Firme cieche, banche e messaggi segreti
 
+### Problemi generali di un sistema ecash
+
 Il sistema teorizzato da David Chaum è stato migliorato nel corso degli anni, tuttavia non esistono implementazioni di ecash chaumiano che siano in uso ad oggi. Le motivazioni possibili sono molteplici, per lo più:
 
 1. **Pressioni normative**. Un sistema costruito sulla proposta di ecash chaumiano è un sistema innatamente anonimo, dove l'emittente dei token ecash non ha possibilità di tracciare, monitorare o correlare pagamenti tra utenti. Ad oggi le normative per Anti-riciclaggio e Anti-terrorismo non permettono questo tipo di approccio;
 
 2. **Brevetti**. Alcune tecnologie inizialmente proposte per la creazione di un simile sistema sono state poi brevettate, richiedendo quindi un notevole sforzo per aggirare i brevetti;
 
-3. **Cold start problem**. Un sistema di ecash simile si può considerare più difficile da proporre sul mercato poichè utenti disinteressati alla privacy online non sono di certo incentivati ad utilizzarlo.
+3. **Cold start problem**. Un sistema di ecash simile si può considerare più difficile da proporre sul mercato poichè utenti disinteressati alla privacy online non sono di certo incentivati ad utilizzarlo;
+
+4. **Problemi di scalabilità**. Il funzionamento di un sistema come quello teorizzato da Chaum necessita di una sostanziale capacità di throughput, di certo non ottenibile con hardware di qualche decennio fa.
+
+### Funzionamento generale di un sistema ecash
+
+Il sistema proposto da David Chaum per i pagamenti digitali è generalizzabile utilizzando il seguente schema:
+
+- Una Banca (B), emittente dei token ecash e custode del collaterale a garanzia della massa monetaria di ecash in circolazione;
+- utente Alice (A), un individuo interessato ad ottenere degli ecash.
+
+Per utilizzare dell'ecash, Alice deve recarsi presso la banca e prelevare una certa somma di ecash a fronte di un corrispettivo in altra valuta. Per assicurare l'anonimato nell'erogazione dei token ecash, il tutto avviene nel rispetto della seguente procedura:
+
+- Alice ripone un foglio di carta bianco all'interno di una busta speciale (ad esempio una busta di [carta carbone](https://it.wikipedia.org/wiki/Carta_carbone));
+- Alice si reca presso la Banca e richiede di prelevare una somma X in token ecash versando questa somma in Euro presso lo sportello;
+- La Banca riceve il versamento di €X e appone sulla busta di Alice una firma specifica e valida per l'importo €X;
+- Alice torna a casa, apre la busta ed estrae il foglio di carta. Poichè la busta è in *carta carbone*, la firma valida per €X effettuata dalla Banca è penetrata all'interno della busta e risulta ora apposta anche sul foglio di carta, ora di fatto un token ecash;
+- Alice può ora scambiare liberamente il foglio di carta come un token ecash di valore €X. Chiunque riceva da Alice questo token può verificare presso la Banca che la firma riposta sul token sia corrispondente ad una firma valida per un prelievo di €X.
+
+Il sistema illustrato garantisce che non vi sia una tracciabilità del token ecash emesso dalla Banca, poichè la Banca stessa non ha mai avuto visibilità sul foglio di carta ma solo sulla busta che lo conteneva. Il token in circolazione può quindi essere riportato presso la Banca e riscattato per un valore di €X in qualsiasi momento, senza collegare l'identità di Alice all'identità del prelevante.
 
 
 
 
-
-## Cashu, un sistema di ecash chaumiano per Bitcoin
+## Cashu, un protocollo per ecash chaumiano, costruito su Bitcoin
 
 
 
