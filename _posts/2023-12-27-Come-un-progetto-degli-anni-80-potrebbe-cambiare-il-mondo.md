@@ -127,9 +127,7 @@ Il funzionamento generale di cashu è molto simile a quanto descritto con riferi
 - modalità di **unblinding**, ovvero come Alice riesce a 'scartare' la busta;
 - modalità di **verifica**, ovvero come Bob verifica la legittimità del token ecash e, di conseguenza, come la controparte Carol (con cui Alice ha scambiato il token) si assicura della legittimità dei fondi ricevuti.
 
-E' importante rimarcare che per assicurarsi della legittimità dei fondi ricevuti, Carol è obbligata a richiedere la verifica di Bob ad ogni transazione ricevuta.
-
-Di seguito uno schema del funzionamento di Cashu, dati i seguenti elementi:
+Di seguito uno schema approfondito del funzionamento di Cashu, dati i seguenti elementi:
 
 - Bob (mint)
     - `k` chiave privata della mint 
@@ -139,7 +137,23 @@ Di seguito uno schema del funzionamento di Cashu, dati i seguenti elementi:
     - `x` stringa casuale, di fatto il messaggio segreto. Da `x` viene matematicamente derivato il punto `Y` sulla curva ellittica
     - `r` chiave privata di Alice (fattore blinding)
 
-<img src="/assets/img/cashu_scheme.png" alt="Ecash creation scheme" width="900" height="1000">
+<img src="/assets/img/cashu_scheme.png" alt="Ecash creation scheme" width="800" height="800">
+
+#### Osservazioni
+
+Dall'analisi dello schema emergono ulteriori dettagli rispetto allo schema generico illustrato in precedenza.
+
+1. Per assicurarsi della legittimità dei fondi ricevuti, Carol è obbligata a richiedere la verifica di Bob ad ogni transazione ricevuta, da cui la necessità che Bob sia sempre online e raggiungibile;
+2. Nel momento in cui Bob riceve `(x, C)`, egli osserva il segreto `x` che quindi **non è più segreto** ma a disposizione sia di Bob, sia di Alice, sia di Carol. 
+
+Per ovviare al problema emerso al punto 2, Carol richiede dei nuovi ecash token usando lo stesso meccanismo con cui Alice riscatta i token da Bob. Il valore richiesto da Carol è esattamente corrispondente a quanto ricevuto da Alice. In questo modo:
+
+    - il token `(x, C)` esistente viene *bruciato*;
+    - Carol genera un nuovo `Y` e `B_`;
+    - Bob restituisce a Carol un nuovo `C_`;
+    - Carol calcola `C` per il nuovo token.
+
+Questa procedura assicura l'anonimità del token ad ogni trasferimento.
 
 
 ### Implementazioni e riferimenti
