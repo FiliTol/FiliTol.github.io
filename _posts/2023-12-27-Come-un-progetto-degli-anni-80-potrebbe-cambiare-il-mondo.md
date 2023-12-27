@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "Ecash, ovvero un progetto dimenticato che potrebbe rivoluzionare i pagamenti digitali"
+title: "Ecash, una tecnologia (quasi) morta che potrebbe rivoluzionare i pagamenti digitali"
 categories: Bitcoin
 ---
 
 ## Introduzione
 
-Il 1983 è passato alla storia come uno dei punti di flesso per l'evoluzione delle comunicazioni, con la migrazione di [ARPANET](https://en.wikipedia.org/wiki/ARPANET) dal [NCP](https://en.wikipedia.org/wiki/Network_Control_Protocol_(ARPANET)) al protocollo [TCP/IP](https://en.wikipedia.org/wiki/Internet_protocol_suite) avvenuta il 1° gennaio.
-Nel settembre dello stesso anno nasce il progetto [GNU](https://en.wikipedia.org/wiki/GNU_Project), che ha rivoluzionato profondamente l'industria del software fino ai giorni nostri, iniziando *de-facto* il [movimento free-software](https://en.wikipedia.org/wiki/Free_software_movement).
+Il 1983 è passato alla storia come uno dei punti di flesso per l'evoluzione delle comunicazioni, con la migrazione di <a href="https://en.wikipedia.org/wiki/ARPANET" target="_blank">ARPANET</a> dal <a href="https://en.wikipedia.org/wiki/Network_Control_Protocol_(ARPANET)" target="_blank">NCP</a> al protocollo <a href="https://en.wikipedia.org/wiki/Internet_protocol_suite" target="_blank">TCP/IP</a> avvenuta il 1° gennaio.
+Nel settembre dello stesso anno nasce il progetto <a href="https://en.wikipedia.org/wiki/GNU_Project" target="_blank">GNU</a>, che ha rivoluzionato profondamente l'industria del software fino ai giorni nostri, iniziando *de-facto* il <a href="https://en.wikipedia.org/wiki/Free_software_movement" target="_blank">movimento free-software</a>.
 
-Certamente meno rumoroso rispetto agli avvenimenti citati, anche il paper [*Blind signatures for untraceable payments*](https://www.hit.bme.hu/~buttyan/courses/BMEVIHIM219/2009/Chaum.BlindSigForPayment.1982.PDF) vide la luce nello stesso anno. L'autore, il crittografo statunitense David Chaum, illustra all'interno del paper un metodo rivoluzionario per garantire la verificabilità e l'anonimato dei partecipanti ad una votazione effettuata a mezzo postale.
+Certamente meno rumoroso rispetto agli avvenimenti citati, anche il paper <a href="https://www.hit.bme.hu/~buttyan/courses/BMEVIHIM219/2009/Chaum.BlindSigForPayment.1982.PDF" target="_blank">Blind Signatures for Untraceable Payments</a> vide la luce nello stesso anno. L'autore, il crittografo statunitense David Chaum, illustra all'interno del paper un metodo rivoluzionario per garantire la verificabilità e l'anonimato dei partecipanti ad una votazione effettuata a mezzo postale.
 Nel 1989 lo stesso Chaum fonda Digicash allo scopo di fornire servizi costruiti con l'ausilio degli schemi crittografici da lui ideati.
 Nonstante la genialità delle invenzioni di Chaum, Digicash dichiara bancarotta nel 1998, citando - tra gli altri - problemi di scarsa adozione da parte degli istituti di credito.
 
-Nell'intervista [*First Monday Interviews: David Chaum*](https://firstmonday.org/ojs/index.php/fm/article/view/683/593) del 1999 lo stesso Chaum rimarca alcuni dei problemi dei sistema di pagamenti digitali dell'epoca:
+Nell'intervista <a href="https://firstmonday.org/ojs/index.php/fm/article/view/683/593" target="_blank">First Monday Interviews: David Chaum</a> del 1999 lo stesso Chaum rimarca alcuni dei problemi dei sistema di pagamenti digitali dell'epoca:
 
 > *Intervistatore*: Here in Belgium for instance there is Proton, but the problem with this kind of payment system is that everything you buy with it is recorded.
 
@@ -54,7 +54,7 @@ Il sistema proposto da David Chaum per i pagamenti digitali è generalizzabile u
 
 Per utilizzare dell'ecash, Alice deve recarsi presso la banca e prelevare una certa somma di ecash a fronte di un corrispettivo in altra valuta. Per assicurare l'anonimato nell'erogazione dei token ecash, il tutto avviene nel rispetto della seguente procedura:
 
-- Alice ripone un foglio di carta bianco all'interno di una busta speciale (ad esempio una busta di [carta carbone](https://it.wikipedia.org/wiki/Carta_carbone));
+- Alice ripone un foglio di carta bianco all'interno di una busta speciale (ad esempio una busta di <a href="https://it.wikipedia.org/wiki/Carta_carbone)" target="_blank">carta carbone</a>;
 - Alice si reca presso la Banca e richiede di prelevare una somma X in token ecash versando questa somma in Euro presso lo sportello;
 - La Banca riceve il versamento di €X e appone sulla busta di Alice una firma specifica e valida per l'importo €X;
 - Alice torna a casa, apre la busta ed estrae il foglio di carta. Poichè la busta è in *carta carbone*, la firma valida per €X effettuata dalla Banca è penetrata all'interno della busta e risulta ora apposta anche sul foglio di carta, ora di fatto un token ecash;
@@ -68,9 +68,9 @@ Quanto illustrato ha una rilevanza marginale in un contesto di transazioni econo
 
 ### Proposta per una ecash di banca centrale
 
-Ad onor del vero, esiste un recente working paper che propone l'implementazione di un sistema simile. Lo stesso David Chaum - con la collaborazione di Christian Grothoff e Thomas Moser - ha infatti pubblicato nel marzo del 2021 il working paper [How to issue a central bank digital currency](https://www.snb.ch/en/publications/research/working-papers/2021/working_paper_2021_03), nel quale viene proposto un sistema di ecash implementabile da una Banca Centrale per garantire la privacy degli utenti ed il contestuale rispetto delle regolamentazioni in materia di intermediari finanziari.
+Ad onor del vero, esiste un recente working paper che propone l'implementazione di un sistema simile. Lo stesso David Chaum - con la collaborazione di Christian Grothoff e Thomas Moser - ha infatti pubblicato nel marzo del 2021 il working paper <a href="https://www.snb.ch/en/publications/research/working-papers/2021/working_paper_2021_03" target="_blank">How to issue a central bank digital currency</a>, nel quale viene proposto un sistema di ecash implementabile da una Banca Centrale per garantire la privacy degli utenti ed il contestuale rispetto delle regolamentazioni in materia di intermediari finanziari.
 
-Nel novembre 2023 la Bank for International Settlements ha annunciato la creazione del [Progetto Tourbillon](https://www.bis.org/publ/othp80.htm), il quale propone un'implementazione di ecash chaumiano a sostituzione del sistema a Central Bank Digital Currency (CBDC). Il progetto sembra garantire maggiore privacy negli scambi, mantenendo anonima l'identità del pagante ma conservando la possibilità di monitorare e tracciare le transazioni del ricevente ai fini fiscali, di antiriciclaggio ed anti-terrorismo.
+Nel novembre 2023 la Bank for International Settlements ha annunciato la creazione del <a href="https://www.bis.org/publ/othp80.htm" target="_blank">Progetto Tourbillon</a>, il quale propone un'implementazione di ecash chaumiano a sostituzione del sistema a Central Bank Digital Currency (CBDC). Il progetto sembra garantire maggiore privacy negli scambi, mantenendo anonima l'identità del pagante ma conservando la possibilità di monitorare e tracciare le transazioni del ricevente ai fini fiscali, di antiriciclaggio ed anti-terrorismo.
 La proposta del Progetto Tourbillon è certamente rivoluzionaria rispetto al dibattito classico in materia di CBDC, rimangono alcuni dubbi circa il livello di privacy effettiva garantita dallo strumento che sicuramente verranno chiariti quando e se l'utilizzo effettivo del sistema prenderà piede.
 
 ## Cashu, ecash chaumiano costruito su Bitcoin
@@ -115,7 +115,7 @@ Ogni proposta tecnologica avanzata fino ad oggi si mantiene all'interno dello sp
 
 ### Cashu
 
-> Cashu is a free and open-source Chaumian ecash system built for Bitcoin. Cashu offers near-perfect privacy for users of custodial Bitcoin applications. [cashu.space](https://cashu.space/)
+> Cashu is a free and open-source Chaumian ecash system built for Bitcoin. Cashu offers near-perfect privacy for users of custodial Bitcoin applications. <a href="https://cashu.space/" target="_blank">(cashu.space)</a>
 
 Cashu è un protocollo che punta a risolvere il problema della privacy in un contesto di piattaforma custodial, costituendo un'ottima soluzione per utenti non avvezzi a soluzioni self-hosted che vogliono però tutelare maggiormente la propria privacy.
 
@@ -179,22 +179,16 @@ Cashu soffre chiaramente delle problematiche classiche dei sistemi basati su con
 
 ### Implementazioni e riferimenti
 
-Il protocollo Cashu conta ad oggi 8 implementazioni di wallet (disponibili [qui](https://docs.cashu.space/wallets) e 5 implementazioni di mint (guarda [qui](https://docs.cashu.space/mints)), effettivamente utilizzabili ad oggi con fondi mainnet (anche se rischiosi a causa di bug comprensibili vista la giovane età del protocollo).
+Il protocollo Cashu conta ad oggi 8 implementazioni di wallet (disponibili <a href="https://docs.cashu.space/wallets" target="_blank">qui</a>) e 5 implementazioni di mint (guarda <a href="https://docs.cashu.space/mints" target="_blank">qui</a>), effettivamente utilizzabili ad oggi con fondi mainnet (anche se rischiosi a causa di bug comprensibili vista la giovane età del protocollo).
 
 ## Conclusione
 
-Nominare Fedi e fedimint
+
 
 
 ## Fonti
 
-- 
-- 
-- 
-- 
-- [Chaumian eCash in Bitcoin - Cashu & Fedimint - Adam Gibson aka waxwing](https://www.youtube.com/watch?v=VwMzNE1D3so)
-
-
+- <a href="https://www.youtube.com/watch?v=VwMzNE1D3so" target="_blank">Chaumian eCash in Bitcoin - Cashu & Fedimint - Adam Gibson aka waxwing</a>
 
 
 <div class="post-categories">
