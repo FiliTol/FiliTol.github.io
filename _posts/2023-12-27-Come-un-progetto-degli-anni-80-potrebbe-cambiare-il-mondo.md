@@ -134,7 +134,7 @@ Di seguito uno schema del funzionamento di Cashu:
     - T blinded message
     - Z proof (unblinded signature)
 
-![](assets/img/cashu_scheme.png)
+[](assets/img/cashu_scheme.png)
 
 
 
