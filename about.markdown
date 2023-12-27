@@ -6,7 +6,7 @@ permalink: /about/
 
 Ciao! Se stai leggendo queste righe di testo significa che sei approdato al mio sito, dunque credo proprio che sia giunto il momento delle presentazioni! 
 
-Io sono Filippo, ho 23 anni ed al momento sto frequentando una Laurea Magistrale in Data Analytics dell'Università Ca'Foscari di Venezia. Sono appassionato di tecnologia, adoro immergermi nella lettura e mi affascina tutto ciò che riguarda la Scienza. 
+Io sono Filippo, ho 24 anni ed al momento sto frequentando una Laurea Magistrale in Data Analytics dell'Università Ca'Foscari di Venezia. Sono appassionato di tecnologia, adoro immergermi nella lettura e mi affascina tutto ciò che riguarda la Scienza. 
 
 **Perchè questo blog?**
 
