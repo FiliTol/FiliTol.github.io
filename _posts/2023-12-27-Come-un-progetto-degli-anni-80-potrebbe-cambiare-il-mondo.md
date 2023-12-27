@@ -121,20 +121,25 @@ Cashu è un protocollo che punta a risolvere il problema della privacy in un con
 
 ### Come funziona
 
-Di seguito uno schema del funzionamento di Cashu:
+Il funzionamento generale di cashu è molto simile a quanto descritto con riferimento al paper di David Chaum, con alcune aggiunte riguardanti:
+
+- modalità di **blinding**, ovvero come la Bob (mint) viene reso cieco nei confronti del messaggio all'interno della busta;
+- modalità di **unblinding**, ovvero come Alice riesce a 'scartare' la busta;
+- modalità di **verifica**, ovvero come Bob verifica la legittimità del token ecash e, di conseguenza, come la controparte Carol (con cui Alice ha scambiato il token) si assicura della legittimità dei fondi ricevuti.
+
+E' importante rimarcare che per assicurarsi della legittimità dei fondi ricevuti, Carol è obbligata a richiedere la verifica di Bob ad ogni transazione ricevuta.
+
+Di seguito uno schema del funzionamento di Cashu, dati i seguenti elementi:
 
 - Bob (mint)
-    - k private key of mint (one for each amount)
-    - K public key of mint
-    - Q promise (blinded signature)
+    - `k` chiave privata della mint 
+    - `K` chiave pubblica della mint
 
 - Alice (user)
-    - x random string (secret message), corresponds to point Y on curve
-    - r private key (blinding factor)
-    - T blinded message
-    - Z proof (unblinded signature)
+    - `x` stringa casuale, di fatto il messaggio segreto. Da `x` viene matematicamente derivato il punto `Y` sulla curva ellittica
+    - `r` chiave privata di Alice (fattore blinding)
 
-<img src="/assets/img/cashu_scheme.png" alt="Ecash creation scheme" width="600" height="700">
+<img src="/assets/img/cashu_scheme.png" alt="Ecash creation scheme" width="900" height="1000">
 
 
 ### Implementazioni e riferimenti
