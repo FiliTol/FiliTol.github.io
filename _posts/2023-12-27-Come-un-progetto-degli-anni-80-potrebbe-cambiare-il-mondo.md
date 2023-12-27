@@ -147,10 +147,11 @@ Dall'analisi dello schema emergono ulteriori dettagli rispetto allo schema gener
 2. Nel momento in cui Bob riceve `(x, C)`, egli osserva il segreto `x` che quindi **non è più segreto** ma a disposizione sia di Bob, sia di Alice, sia di Carol. 
 
 Per ovviare al problema emerso al punto 2, Carol richiede dei nuovi ecash token usando lo stesso meccanismo con cui Alice riscatta i token da Bob. Il valore richiesto da Carol è esattamente corrispondente a quanto ricevuto da Alice. In questo modo:
-    - il token `(x, C)` esistente viene *bruciato*;
-    - Carol genera un nuovo `Y` e `B_`;
-    - Bob restituisce a Carol un nuovo `C_`;
-    - Carol calcola `C` per il nuovo token.
+
+- il token `(x, C)` esistente viene *bruciato*;
+- Carol genera un nuovo `Y` e `B_`;
+- Bob restituisce a Carol un nuovo `C_`;
+- Carol calcola `C` per il nuovo token.
 
 Questa procedura assicura l'anonimità del token ad ogni trasferimento.
 
