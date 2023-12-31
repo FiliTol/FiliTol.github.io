@@ -148,7 +148,7 @@ Di seguito uno schema approfondito del funzionamento di Cashu, dati i seguenti e
 Dall'analisi dello schema emergono ulteriori dettagli rispetto allo schema generico illustrato in precedenza.
 
 1. Per assicurarsi della legittimità dei fondi ricevuti, Carol è obbligata a richiedere la verifica di Bob ad ogni transazione ricevuta, da cui la necessità che Bob sia sempre online e raggiungibile;
-2. Nel momento in cui Bob riceve `(x, C)` egli è in grado di osservare il segreto `x` che quindi **non è più segreto** poichè sia di Bob, sia di Alice, sia di Carol ne sono a conoscenza. 
+2. Nel momento in cui Bob riceve `(x, C)` egli è in grado di osservare il segreto `x` che quindi **non è più segreto** poichè sia Bob, sia Alice, sia Carol ne sono a conoscenza. 
 
 Per ovviare al problema emerso al punto 2, Carol richiede dei nuovi ecash token usando lo stesso meccanismo con cui Alice riscatta i token da Bob. Il valore richiesto da Carol è esattamente corrispondente a quanto ricevuto da Alice. In questo modo:
 
