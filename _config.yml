@@ -13,7 +13,6 @@ theme: minima
 
 plugins:
   - jekyll-feed
-
 # Theme-specific settings
 
 minima:

@@ -2,6 +2,7 @@
 layout: post
 title: "eCash, una tecnologia (quasi) morta che potrebbe rivoluzionare i pagamenti digitali"
 categories: Bitcoin
+lang: it
 ---
 
 ## Introduzione
