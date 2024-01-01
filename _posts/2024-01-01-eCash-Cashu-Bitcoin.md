@@ -137,7 +137,7 @@ Il funzionamento generale di cashu è molto simile a quanto descritto con riferi
 - modalità di **unblinding**, ovvero come Alice riesce a 'scartare' la busta;
 - modalità di **verifica**, ovvero come Bob verifica la legittimità del token eCash e, di conseguenza, come la controparte Carol (con cui Alice ha scambiato il token) si assicura della legittimità dei fondi ricevuti.
 
-Di seguito uno schema approfondito del funzionamento di Cashu, dati i seguenti elementi:
+Di seguito uno schema approfondito del funzionamento di Cashu. Tra le risorse aggiuntive a fine articolo è disponibile lo schema completo per la procedura (Diffie-Helmann Key Exchange) utilizzato da Cashu.
 
 - Bob (mint)
     - `k` chiave privata della mint 
@@ -210,6 +210,12 @@ Nonostante i decenni, la soluzione proposta da Chaum si riconferma una tecnologi
 - <a href="https://bitcoin.org/bitcoin.pdf" target="_blank">Bitcoin: A Peer-to-Peer Electronic Cash System - Nakamoto, S. (2008)</a>
 - <a href="https://docs.cashu.space/" target="_blank">Cashu documentation [website]</a>
 - <a href="https://www.youtube.com/watch?v=VwMzNE1D3so" target="_blank">Chaumian eCash in Bitcoin - Cashu & Fedimint - Adam Gibson aka waxwing [youtube]</a>
+
+## Risorse aggiuntive
+
+Per chiarire ulteriormente la procedura di minting e verifica del token utilizzata in Cashu allego uno schema riassuntivo contenente le formule estese.
+
+<object data="/assets/docs/scheme.pdf" width="600" height="800" type='application/pdf'/>
 
 
 <div class="post-categories">
