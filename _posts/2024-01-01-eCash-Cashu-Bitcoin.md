@@ -217,7 +217,6 @@ Per chiarire ulteriormente la procedura di minting e verifica del token utilizza
 
 <object data="/assets/docs/scheme.pdf" width="600" height="800" type='application/pdf'/>
 
-
 <div class="post-categories">
   {% if post %}
     {% assign categories = post.categories %}
