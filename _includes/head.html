@@ -6,11 +6,10 @@
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' -%}
-    <script defer 
-        src="https://eu.umami.is/script.js" data-website-id="e4d15d4b-3061-43d7-bf68-898dc8d308a9">
+  {%- if jekyll.environment == 'production' %}
+    <script async defer src="https://eu.umami.is/script.js" data-website-id="e4d15d4b-3061-43d7-bf68-898dc8d308a9">
     </script>
-  {%- endif -%}
+  {% endif %}
 
   {%- include custom-head.html -%}
   
