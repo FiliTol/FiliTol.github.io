@@ -257,7 +257,7 @@ sint consectetur cupidatat.
 
 This is how this document knitted looks like:
 
-![Knitted document](latex.png)
+![Knitted document](../assets/img/latex.png)
 
 Clearly this is a basic template example: with some googling and basic changes
 you can easily obtain a document that matches your own needs and desires.
