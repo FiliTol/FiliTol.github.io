@@ -12,24 +12,29 @@ it into discussions a lot) is the concept of spending bitcoin rather than
 simply keeping them as a long-term value reserve and fiat economy edge.
 
 I've come to the conclusion that *spending bitcoin* is considered an
-unpopular opinion at best, stupid at worse, thus with very very few bitcoin
-users are willing to consistently move their
-funds to spend them in the real economy (even provided the opportunity
+unpopular opinion at best, stupid at worse, with very very few bitcoin
+users willing to spend their funds in the real economy (even provided the opportunity
 to buy them back). This tendency is usually justified by recalling the
-**Gresham Law**, whereby the *bad money* tends to be flow in the real
-economy and be spent way before the **good money**. The reason for it
-is that economic agents are willing to free themselves from bad store of value and
-keep the good store of value money in their pockets. Very rational indeed.
+**Gresham Law**, whereby the *bad money* is supposed to be spent before the
+**good money**, because economic agents are willing to free themselves from bad
+store of value and keep the good store of value money in their pockets.
 
 This is rather understandable and makes the tendency of not spending bitcoin
-even a justifiable attitude. At the end of the day, if you buy the idea
+a justifiable attitude. At the end of the day, if you buy the idea
 of the *digital gold*, you should realize that fiat currency tends to be
 devalued throughout the decades, whereas store of value assets
 tend to not be devalued because of various properties.
 
-I've no issue with this approach to bitcoin spending.
+I've no issues with this approach to bitcoin spending.
 Nonetheless, in my opinion, spending bitcoin is the only way
-to increase its adoption and make it *actually useful*.
+to boost its adoption and make it *actually useful*.
+Holding an asset *to the moon* with your *diamond hands* is
+not going to create value in the economy, is not going to
+make the ecosystem grow. It's supposedly making your bags
+a bit larger only if *the others* out there actually use the
+asset for its properties, claiming their sovreignty and thus
+enhancing possible future purchasing power. Still, you don't
+have *purchasing power* if you don't *purchase* stuff.
 
 ## First movers and sats-payable services
 
