@@ -1,39 +1,40 @@
 ---
 layout: page
-title: Chi sono
+title: About
 permalink: /about/
 ---
 
-Ciao! Se stai leggendo queste righe di testo significa che sei approdato al mio
-sito, dunque credo proprio che sia giunto il momento delle presentazioni! 
+Hi!
+Since you are reading these lines, it's time for introductions!
 
-Io sono Filippo, ho 24 anni ed al momento sto frequentando una Laurea Magistrale
-in Data Analytics dell'Università Ca'Foscari di Venezia. Sono appassionato di
-tecnologia, adoro immergermi nella lettura e mi affascina tutto ciò che riguarda
-la Scienza.
+I am Filippo an italian 24 years old guy currently pursuing a Master's degree in
+Data Analytics at Ca'Foscari University of Venice. I am passionate about
+technology, love reading and am fascinated by everything
+related to Science. Lately I've been deeping into various topics regarding digital
+payments, like chaumian ecash systems, peer to peer electronic payments and specifically
+the Bitcoin protocol.
 
-**Perchè questo blog?**
+Why this blog?
 
-*Nulla dies sine linea* è una [locuzione latina](https://it.wikipedia.org/wiki/Nulla_dies_sine_linea)
-molto famosa che letteralmente significa *nessun giorno senza una linea*.
-Mi sono imbattuto per la prima volta in questa locuzione leggendo un breve saggio
-di [Franco Volpi](https://it.wikipedia.org/wiki/Franco_Volpi_(filosofo)) posto
-come introduzione al celeberrimo *Senilia* di Schopenhauer, nel quale Volpi - tra
-le altre cose - rimarca l'importanza di raccogliere in forma scritta i pensieri,
-le riflessioni e gli accadimenti quotidiani. 
+[*Nulla dies sine linea*](https://it.wikipedia.org/wiki/Nulla_dies_sine_linea)
+is a very famous Latin phrase that literally means
+*no day without a line*. I firstly encountered this quote while reading a short
+essay by Franco Volpi, which served as an introduction to a new edition of the famous
+*Senilia* by Schopenhauer. In the essay, Volpi emphasizes the importance of
+recording daily thoughts, reflections, and events in written form.
 
-> Come l'ape che durante il giorno raccoglie il polline volando di fiore in fiore,
-> e giunta la sera non lascia che vada disperso ma lo condensa in miele, allo stesso
-> modo i frutti delle disparate letture che facciamo nel corso della giornata rischiano
-> di andare perduti se non li raccogliamo e compendiamo in forma scritta.
+> Just like a bee that gathers pollen by flying from flower to flower during
+> the day and, come evening, does not let it disperse but condenses it into
+> honey, so too the fruits of the varied readings we undertake throughout the day
+> risk being lost if we do not collect and condense them in written form.
 
-Ecco il perchè di questo blog, per raccogliere le mie riflessioni a proposito di
-temi a me cari, di letture svolte o semplicemente per mettere nero su bianco quella
-*linea*.
+This is the *reason why* for this blog: to gather my reflections on topics
+dear to me, on readings I've done, or simply to put that *line* down.
 
-Puoi trovare più informazioni circa quello che faccio nella mia pagina
-[linkedIn](https://it.linkedin.com/in/filippotolin) ed il mio profilo [GitHub](https://github.com/FiliTol).
-Puoi trovare un breve riassunto delle mie esperienze lavorative nella sezione [Resume](/about/resume).
+You can find more information about what I do on my  [LinkedIn page](https://it.linkedin.com/in/filippotolin)
+and my [GitHub profile](https://github.com/FiliTol).
+You can find a brief summary of my work experiences in the [Resume section](/about/resume).
 
-Puoi trovare i miei contatti, tra cui l'indirizzo email, nella [sezione contatti del mio Resume](/about/resume).
+You can find my contacts, including my email address, in the contact section
+of my Resume.
 
