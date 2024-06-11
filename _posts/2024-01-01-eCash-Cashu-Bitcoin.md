@@ -5,6 +5,8 @@ categories: Bitcoin
 lang: it
 ---
 
+Quanto descritto nel seguente articolo è disponibile anche <a href="https://www.filippotol.in/material/federated_ecash.pdf" target="_blank">sottoforma di slide</a>.
+
 ## Introduzione
 
 Il 1983 è passato alla storia come uno dei punti di flesso per l'evoluzione delle telecomunicazioni, con la migrazione di <a href="https://en.wikipedia.org/wiki/ARPANET" target="_blank">ARPANET</a> dal <a href="https://en.wikipedia.org/wiki/Network_Control_Protocol_(ARPANET)" target="_blank">NCP</a> al protocollo <a href="https://en.wikipedia.org/wiki/Internet_protocol_suite" target="_blank">TCP/IP</a> avvenuta il 1° gennaio.
