@@ -7,10 +7,10 @@ permalink: /about/
 Hi!
 Since you are reading these lines, it's time for introductions!
 
-I am Filippo an italian 24 years old guy currently pursuing a Master's degree in
-Data Analytics at Ca'Foscari University of Venice. I am passionate about
+I'm Filippo, an italian 24 years old guy currently pursuing a Master's degree in
+Data Analytics at Ca'Foscari University of Venice. I'm passionate about
 technology, love reading and am fascinated by everything
-related to Science. Lately I've been deeping into various topics regarding digital
+related to science. Lately I've been deeping into various topics regarding digital
 payments, like chaumian ecash systems, peer to peer electronic payments and specifically
 the Bitcoin protocol.
 
