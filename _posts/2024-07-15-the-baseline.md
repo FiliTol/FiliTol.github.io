@@ -168,7 +168,7 @@ messages through this platform, that is born in Russia and possibly
 still has some links with the Kremlin.
 
 We are used to the redundant KYC procedures of banks, even
-though it's been [15 years](bitcoin.org) since someone invented
+though it's been [15 years](https://bitcoin.org) since someone invented
 a technology to send each other value online without having
 to put our IDs everywhere.
 
