@@ -8,7 +8,7 @@ lang: en
 > *This article was born as a consequence of [this](https://spectrum.ieee.org/online-privacy)
 > reading. I like the idea of shifting baseline a lot,
 > it's a tool to fight our committment with the current
-> epoch, a strategy to look a behind us and take the time
+> epoch, a strategy to look behind us and take the time
 > to measure changes. Since I'm quite interested in the
 > topic of online privacy, I made this article very focused
 > on that too. I think that although not always easy to measure,
@@ -162,8 +162,9 @@ We send chat messages every day using platforms that are monitored
 by tech giants, crawling all the metadata and building our
 social graphs to understand how to better engage us with their products.
 Telegram, that is widely used in Europe, is run by a no profit
-institution that has a provably broken end-to-end encryption
-schema at the core of its product. And we still send us important
+institution that *somehow* raised more than $700 mln since its inception and has
+a provably broken end-to-end encryption
+schema at the core of its product. But we still send us important
 messages through this platform, that is born in Russia and possibly
 still has some links with the Kremlin.
 
@@ -201,9 +202,8 @@ companies *just to protect the kids*. It's giving anyone
 with some OSINT knowledge (or admin access to some databases)
 to see exactly who we are, where we leave, how much we earn.
 
-I vividly remember the day my father came back home with a
-new telephone, but this time was different. I was in
-high school and I know that for him that was a complete revolution.
+I vividly remember the day my father came back home with the first smartphone.
+I was in high school and I knew that for him that was a complete revolution.
 Something that used to have buttons, now is a thin, shiny
 smartphone. His baseline for telephones was the cabin on the
 street when he was a young boy, my baseline became that smartphone.
@@ -252,7 +252,9 @@ always room for improvements, which sometimes mean putting the
 baseline a bit ahead, and sometimes mean inverting a trend.
 Society can understand the importance of preventing overfishing
 just like individuals can understand the importance
-of preventing privacy losses and do something about it.
+of preventing privacy losses.
+
+And possibly do something about it.
 
 > *Civilization is the progress toward a society of privacy.
 > The savage’s whole existence is public, ruled by the laws
