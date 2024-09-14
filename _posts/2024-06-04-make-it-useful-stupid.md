@@ -216,7 +216,7 @@ My belief is that this step is crucial to make bitcoin *actually useful*,
 to transform it into a pop tool and remove the silly belief that "that's
 only a speculative asset".
 
-## Marketing, adoption and trust in airplanes
+## Marketing, adoption and trust in airplane pilots
 
 My final take on this matter concerns the "marketing aspect" of Bitcoin as a
 protocol and as a tool.
