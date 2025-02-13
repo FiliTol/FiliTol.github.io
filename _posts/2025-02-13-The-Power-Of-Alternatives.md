@@ -19,9 +19,11 @@ They say Fortune's goddess is blindfolded, but who's certainly not blindfolded
 is the Ryanair employee at the gate, and your bag caught her attention immediately.
 You two go into an argument and turns out an extra price must be paid in order
 to get the backpack on the aircraft.
+
 Let's say you're a bit angry at this point, which is understandable because you
 hoped you could get away with it pretty easily. Anyways, luck didn't assist you,
 it's time to take out the credit card and pay for that doomed backpack to be onboarded.
+
 As if it were all staged, the card payment fails: Fortune's goddess seems not only
 to be blindfolded, she's definitely on a long vacation too.
 You feel the urge to justify yourself: "I'm not broke, am I?" you joke with the
@@ -30,10 +32,10 @@ Ryanair employee, as if she cared about your jokes.
 The card has been rejected for technical reasons: it belongs to a payment circuit
 not supported by Ryanair systems. Which doesn't make you broke, but definitely unable to pay.
 
+## What are you doing?
+
 Although fictional, this short story describes something that could have happened
 to anyone. In fact, something similar happened to the woman next to me during a real Ryanair flight.
-
-## What are you doing?
 
 I happened to be on the same flight, on the other side of the aisle, with a bag
 way more "out of limits" than the one belonging to the unlucky woman.
@@ -41,7 +43,6 @@ way more "out of limits" than the one belonging to the unlucky woman.
 Having assisted to all that, a couple of thoughts sprung to my mind:
 
 1. Wow, I got really lucky, I could have been in her shoes now;
-
 2. Is it even possible for someone to not know what payment circut is her card using?! 
 And bare with me, this could have happened to a man too, it's not a matter of sex.
 
@@ -59,9 +60,7 @@ All this reminded me of a sentence I read somewhere weeks ago and forgot about:
 > *What are we doing when we are doing what we are doing?*
 
 What are we really doing when we take out our card to pay something?
-
 What are we really doing when we write chat messages using a messaging app?
-
 What are we really doing when we are driving our car or walking with a friend in a park?
 
 Turns out, we don't know.
@@ -154,9 +153,9 @@ them for granted so that we can avoid bothering further.
 
 As you can imagine, I don't have a solution for this "complexity" issue.
 
-I can't avoid living in a complex environment as a whole, but I can think hard
-about social, economical and phisical environments I've chosen consciously to
-place myself into.
+You can't avoid living in a complex environment as a whole, but you can think hard
+about social, economical and phisical environments you've chosen consciously to
+place yourself into.
 
 "What's the goal here?" you could ask.
 To me, it's just to be a little more prepared when life decides to wake me up
@@ -209,7 +208,8 @@ we shall be awaken from.
 And please, I don't suggest going out trying to drive blindfolded or doing
 anything dangerous. You decide what's hidden for you, what activities are worth
 exploring with different means.
-Unavodables
+
+## Unavodables
 
 Again, I can imagine the obvious and plausible objection at this point: "not
 everything can be done in an 'alternative manner'".
@@ -219,13 +219,14 @@ From time to time, we carry on with activities, jobs not really detachable from
 the tools we use to complete them.
 
 The woman at the Ryanair departure gate couldn't avoid using her credit card
-to pay for the backpack to be onboarded. But sill, there where few alternative
+to pay for the backpack to be onboarded. But still,there where few alternative
 paths opened: she could have checked the size limits for backpacks (the easy one).
 
 Or she could have checked if her credit card circuit were widely accepted and
 possibly setup some alternatives (never heard of Revolut?). At the end of the day,
 you're travelling abroad and having more financial streams to plunder from is always
 a good idea.
+
 Seeking to answer to a simple question like "how does a credit card payment work" 
 could explain a lot about the tool, about the assumptions you make while using it.
 Ultimately, it makes you aware of what you're *really doing* when you are doing it.
