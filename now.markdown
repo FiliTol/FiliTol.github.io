@@ -11,7 +11,7 @@ permalink: /now/
 ## What am I doing *now*
 
 I'm currently working as Data Analyst at [SDG](https://sdggroup.com), mainly focused on the Microsoft technology stack.
-I do a lot of Power BI stuff, which makes me a *business analyst", as they call it.
+I do a lot of Power BI stuff, which makes me a *business analyst*, as they call it.
 
 During my *free time* I work on my master thesis, I try to keep up with as much tech
 stuff I like as possible, specifically the Bitcoin protocol developments.
