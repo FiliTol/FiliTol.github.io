@@ -6,7 +6,7 @@ permalink: /now/
 
 > I think having a "Now" page is a good idea, not to tell the others what you're currently doing - or it may be so, but generally people don't care about others. It is a good idea because it keeps you accountable, it makes you think about what you did and what you're doing at the present time. Moreover, it's a good substitute for social media: you can see what I'm up to right here, in the Now page. I got in touch with the idea of a "Now" page [here](https://nownownow.com/).
 
-### *Last update: 13-02-2025*
+*Last update: 13-02-2025*
 
 ## What am I doing *now*
 
