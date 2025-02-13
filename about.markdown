@@ -7,7 +7,7 @@ permalink: /about/
 Hi!
 Since you are reading these lines, it's time for introductions!
 
-I'm Filippo, an italian 24 years old guy currently pursuing a Master's degree in
+I'm Filippo, an italian 25 years old guy currently pursuing a Master's degree in
 Data Analytics at Ca'Foscari University of Venice. I'm passionate about
 technology, love reading and am fascinated by everything
 related to science. Lately I've been deeping into various topics regarding digital
