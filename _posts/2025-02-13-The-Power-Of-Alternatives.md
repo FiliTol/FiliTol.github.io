@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The power of Alternatives"
+title: "Sleepwalking, credit cards and the hidden power of alternatives"
 categories: Thoughts
 lang: en
 ---
