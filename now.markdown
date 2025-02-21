@@ -16,10 +16,6 @@ I do a lot of Power BI stuff, which makes me a *business analyst*, as they call 
 During my *free time* I work on my master thesis, I try to keep up with as much tech
 stuff I like as possible, specifically the Bitcoin protocol developments.
 
-## What am I reading *now*
-
-I'm currently reading *Dubliners* (James Joyce).
-
 **Disclaimer:** This page is under constant modification.
 If you find something isn't right then,
 I might be doing some changes .
