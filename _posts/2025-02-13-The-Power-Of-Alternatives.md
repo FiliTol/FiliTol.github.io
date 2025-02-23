@@ -219,15 +219,14 @@ From time to time, we carry on with activities, jobs not really detachable from
 the tools we use to complete them.
 
 The woman at the Ryanair departure gate couldn't avoid using her credit card
-to pay for the backpack to be onboarded. But still,there where few alternative
-paths opened: she could have checked the size limits for backpacks (the easy one).
+to pay for the backpack to be onboarded. 
+Nonetheless, if she had a bit more awareness about the tools she was going to
+use abroad, she could have checked if her credit card circuit were widely accepted
+and possibly setup some alternatives (never heard of Revolut?).
+At the end of the day, having more financial streams to plunder from is always a
+good idea.
 
-Or she could have checked if her credit card circuit were widely accepted and
-possibly setup some alternatives (never heard of Revolut?). At the end of the day,
-you're travelling abroad and having more financial streams to plunder from is always
-a good idea.
-
-Seeking to answer to a simple question like "how does a credit card payment work" 
+Seeking answers to a simple question like "*how does a credit card payment work?*" 
 could explain a lot about the tool, about the assumptions you make while using it.
 Ultimately, it makes you aware of what you're *really doing* when you are doing it.
 Again, you don't have to be an engineer, an expert on something to start investigating.
