@@ -32,7 +32,7 @@ minima:
      - { platform: github,         user_url: "https://github.com/FiliTol" }
   #   - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
   #   - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
-     - { platform: keybase,        user_url: "https://keybase.io/filitol" }
+  #   - { platform: keybase,        user_url: "https://keybase.io/filitol" }
      - { platform: linkedin,       user_url: "https://www.linkedin.com/in/filippotolin" }
   #   - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
   #   - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
